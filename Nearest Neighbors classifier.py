@@ -1,12 +1,12 @@
 
-# Create a distance function that returns the distance between 2 observations.
+# Create a distance function that returns the distance between 2 observations
 
 def EuclideanDistance(v1, v2):
     sum = 0.0
     for index in range(len(v1)):
         sum += (v1[index] - v2[index]) ** 2
     return sum ** 0.5
-    
+
 # create a class that implements a Nearest Neighbors classifier.
 
 class NearestNeighbors:
