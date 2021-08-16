@@ -44,5 +44,6 @@ plot_cross_validation_on_trees(sm_tree_depths, sm_cv_scores_mean, sm_cv_scores_s
                                'Accuracy per decision tree depth on training data')
 
 
-    
- 
+
+
+[[False] * 5 for i in range(5)]
